@@ -4,7 +4,7 @@ import re
 from groq import Groq
 
 # Initialize Groq API client
-api = st.secrets['groq_api_key']
+api = st.secrets['groq']['groq_api_key']
 client = Groq(api_key=api)
 
 # Function to load and process the PDF

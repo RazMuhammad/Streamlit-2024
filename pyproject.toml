@@ -20,3 +20,6 @@ reportlab = "^4.2.5"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[groq]
+groq_api_key = "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"
