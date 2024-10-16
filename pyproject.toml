@@ -1,13 +1,20 @@
 [tool.poetry]
-name = "streamlit 2024"
+name = "webd"
 version = "0.1.0"
 description = ""
-authors = ["saix511 <saadirfan41@gmail.com>"]
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+django = "^5.1.2"
 streamlit = "^1.39.0"
+groq = "^0.11.0"
+pypdf = "^5.0.1"
+langchain = "^0.3.3"
+langchain-community = "^0.3.2"
+pypdf2 = "^3.0.1"
+reportlab = "^4.2.5"
 
 
 [build-system]
